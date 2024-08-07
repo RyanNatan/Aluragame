@@ -1,0 +1,91 @@
+    body{
+        color: white;
+        background: black;
+        margin: 0px;
+        font-family: "Chakra Petch", sans-serif;
+        margin-bottom: 100px;
+    }
+
+    header{
+        border-bottom: 15px rgb(255, 255, 255);
+        padding: 20px;
+        font-size: 23px;
+    }
+
+    .chamada{
+        background: rgb(25,57,81);
+        padding-bottom: 90px;
+        padding-top: 90px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .chamada-texto{
+        margin-right: 5%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    img{
+        height: 200px;
+    }
+
+    .categoria-videos{
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+
+    .Categoria{
+        padding-left: 20px;
+        padding-right: 20px;
+        background: rgb(25, 45, 81);
+        margin-top: 50px;
+    }
+
+    .categoria-videos img {
+        opacity: 0.5;
+
+    }
+
+    .categoria-videos img:hover {
+        opacity: 1.0;
+        border: red;
+
+    }
+
+    .categoria h2 {
+        color: white;
+    }
+
+    .gameplays{
+        padding-left: 20px;
+        padding-right: 20px;
+        background: rgb(25, 45, 81);
+        margin-top: 50px;
+    }
+
+    .categoria-gameplays{
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+
+    .categoria-gameplays img {
+        opacity: 0.5;
+    }
+
+    .categoria-gameplays img:hover {
+        opacity: 1.0;
+        border: red;
+    }
+
+    .gameplays h3 {
+        font-size: 20px;
+    }
